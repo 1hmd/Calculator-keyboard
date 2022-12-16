@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  user-select: none;
+  transition: 0.3s;
+  background: #303030;
+}
+
+.row button {
+  width: 70px;
+  height: 70px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 4px;
+  transition: 0.1s;
+  box-shadow: 5px 5px 8px #00000020, -5px -5px 8px rgb(0, 0, 0);
+}
+
+.row button:hover {
+  box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #fff;
+  background: rgb(255, 255, 255);
+}
+
+.display #screen {
+  margin-bottom: 0.5em;
+  width: 477px;
+  height: 70px;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding-right: 0.5em;
+  background: #ecf0f3;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+#eval {
+  background: #33ff44;
+  color: #000000;
+  box-shadow: inset 5px 5px 8px #33ff44, inset -5px -5px 8px #00bd10;
+}
+
+#eval:hover {
+  box-shadow: inset 5px 5px 8px #33ff44, inset -5px -5px 8px #00bd10;
+}
+
+#delete {
+  background: #be0000;
+  color: #000000;
+}
+
+#delete:hover {
+  box-shadow: inset 5px 5px 8px #be0000, inset -5px -5px 8px #be0000;
+}
+
+#backspc {
+  background: #ffee00;
+  color: #000000;
+}
+
+#backspc:hover {
+  box-shadow: inset 5px 5px 8px #ffee00, inset -5px -5px 8px #9d9300;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #00000020, -5px -5px 8px rgb(0, 0, 0);
+}
+
+h1:hover {
+  transition: 0.4s;
+  background: #ffffff;
+  color: #000000;
+}
